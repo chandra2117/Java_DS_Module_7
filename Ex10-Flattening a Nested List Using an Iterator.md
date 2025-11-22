@@ -3,11 +3,19 @@
 ## AIM:
 To design and implement a class NestedIterator that flattens a nested list of integers such that all integers can be accessed sequentially using an iterator interface (next() and hasNext()).
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+1.Start the program.
+
+2.Define an interface-like class NestedInteger that can represent either a single integer or a nested list.
+
+3.Use a stack or recursion to flatten all integers from the nested list into a single list.
+
+4.Store the flattened list and maintain an index to track the current element.
+
+5.Implement next() to return the next integer and hasNext() to check if more integers exist.
+
+6.Test the iterator with a sample nested list.
+
+7.Stop the program.  
 
 ## Program:
 ```
